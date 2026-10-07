@@ -96,8 +96,8 @@
 }
 
 .text_cover {
-  display: block;
   line-height: 125px;
+
 }
 
 .text_center {
@@ -110,16 +110,10 @@
   line-height: 120px;
 }
 
-.text_cover {
-  letter-spacing: 30px; /* буква о разрыв 30, буквы те разрыв 30, буквы ад разрыв 30 */
-}
-
-.text_cover .no_letter_spacing {
-  letter-spacing: 0px; /* сброс межбуквенного разрыва */
-}
 
 .text_cover .letter_spacing {
-  letter-spacing: 60px; /* буквы но разрыв 60, буквы бе разрыв 60, буква н разрыв 60 */
+  letter-spacing: 30px;
+  margin-right: -20px;
 }
 
 .cover_description {
